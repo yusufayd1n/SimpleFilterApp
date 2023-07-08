@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
     private fun setListeners() {
         binding.etFilter.addTextChangedListener { text ->
             when (binding.spinner.selectedItem.toString()) {
-                "İsim" -> {
+                "Name" -> {
                     if (text.toString().isEmpty()) {
                         setAdapter(studentList)
                     } else {
@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
                         setAdapter(filteredStudentList)
                     }
                 }
-                "Numara" -> {
+                "Number" -> {
                     if (text.toString().isEmpty()) {
                         setAdapter(studentList)
                     } else {
@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                         setAdapter(filteredStudentList)
                     }
                 }
-                "Not" -> {
+                "Note" -> {
                     if (text.toString().isEmpty()) {
                         setAdapter(studentList)
                     } else {
@@ -64,7 +64,7 @@ class MainActivity : AppCompatActivity() {
                         setAdapter(filteredStudentList)
                     }
                 }
-                "Harf Notu" -> {
+                "Letter Grade" -> {
                     if (text.toString().isEmpty()) {
                         setAdapter(studentList)
                     } else {
