@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Filtering</string>
+    <string name="apply">Uygula</string>
+    <string name="filter_parameter">Filtreleme Parametresi</string>
+
+    <string-array name="student_features">
+        <item>İsim</item>
+        <item>Numara</item>
+        <item>Not</item>
+        <item>Harf Notu</item>
+    </string-array>
+</resources>
